@@ -158,3 +158,80 @@ nav .right button {
 .subblock img{
     width: 65px;
 }
+
+
+.container2{
+  width: 80vw;
+  padding: 0 10vw;
+  /* border-top: 2px solid grey; */
+  /* z-index: 10; */
+  margin-top: 250px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container2 .block2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 150px;
+}
+.block2 .top{
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.block2 .top img{
+  width: 45px;
+  margin-right: 20px;
+}
+.block2 .top  h2{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.container3{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  width: 80vw;
+  padding: 0 10vw;
+}
+.container3 h2{
+  font-size: 40px;
+  font-weight: 400;
+  width: 40%;
+}
+.container3 .box{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+.container3 .box .subbox{
+  background-color: #151515;
+  width: 30%;
+  margin: 2% 3% 2% 0;
+  border-radius: 10px;
+  border: 1px solid rgb(58, 58, 58);
+  padding: 40px 50px;
+}
+.subbox .top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.subbox .top{
+  margin-bottom: 20px;
+}
+.subblock .top img{
+  width: 30px;
+  margin-right: 20px;
+}
+.subblock .top h2{
+  margin-left: 20px;
+}
